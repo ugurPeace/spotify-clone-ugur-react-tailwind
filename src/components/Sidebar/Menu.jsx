@@ -1,43 +1,45 @@
 import { AiFillHome } from "react-icons/ai";
 import { IoSearch } from "react-icons/io5";
 import { BiLibrary } from "react-icons/bi";
+import { NavLink } from "react-router-dom";
 
 function Menu() {
   return (
     <nav className="px-2">
       <ul className="flex flex-col">
         <li>
-          <a
-            href="#"
-            className="h-10 flex items-center text-sm font-semibold text-white hover:text-white px-4 bg-active rounded"
+          <NavLink
+            to="/"
+            activeClassName="bg-active"
+            className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link hover:text-white px-4 focus:bg-active active:bg-active rounded transition-all "
           >
-            <span className="px-4">
+            <span>
               <AiFillHome size={24} />
             </span>
             Home
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a
-            href="#"
-            className="h-10 flex items-center text-sm font-semibold text-link hover:text-white  px-4 rounded"
+          <NavLink
+            to="/search"
+            className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link hover:text-white active:bg-active rounded px-4  transition-all focus:bg-active "
           >
-            <span className="px-4">
+            <span>
               <IoSearch size={24} />
             </span>
             Search
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a
-            href="#"
-            className="h-10 flex items-center text-sm font-semibold text-link hover:text-white  px-4 rounded "
+          <NavLink
+            to="/collection"
+            className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link hover:text-white  px-4  active:bg-active rounded focus:bg-active transition-all "
           >
-            <span className="px-4">
+            <span>
               <BiLibrary size={24} />
             </span>
             Your Library
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
