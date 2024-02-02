@@ -15,7 +15,7 @@ function Auth() {
           <Menu.Button
             className={`h-8 flex items-center ${
               open ? "bg-active" : "bg-black"
-            } rounded-3xl  pr-2 hover:bg-active`}
+            } rounded-3xl  pr-2 hover:bg-active `}
           >
             <img
               src={user.avatar}
@@ -28,7 +28,7 @@ function Auth() {
           </Menu.Button>
           <Menu.Items
             className={
-              "absolute top-full right-0 w-36 bg-active rounded translate-y-2"
+              "absolute top-full right-0 w-36 bg-active rounded translate-y-2 z-10"
             }
           >
             <Menu.Item>
@@ -61,7 +61,7 @@ function Auth() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`h-8 flex items-center px-3  text-sm rounded  ${
+                  className={`h-8 flex  items-center px-3  text-sm rounded  ${
                     active && "bg-white bg-opacity-10"
                   }`}
                   href="#"

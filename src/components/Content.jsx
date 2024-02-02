@@ -9,9 +9,9 @@ function Content() {
   const url = useResolvedPath("").pathname;
 
   return (
-    <main className="flex-auto">
+    <main className="flex-auto overflow-auto">
       <Navbar />
-      <div className="px-8 pt-4">
+      <div className="px-8 py-5">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />

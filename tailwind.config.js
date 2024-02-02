@@ -13,6 +13,9 @@ export default {
       fontSize: {
         s: "0.813rem",
       },
+      aspectRatio: {
+        "1/1": "1 / 1",
+      },
     },
   },
   plugins: [],
