@@ -28,13 +28,13 @@ function Auth() {
           </Menu.Button>
           <Menu.Items
             className={
-              "absolute top-full right-0 w-36 bg-active rounded translate-y-2 z-10"
+              "absolute top-full p-1 right-0 w-36 bg-active rounded translate-y-2 z-10"
             }
           >
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`h-8 flex justify-between items-center px-3  text-sm rounded  ${
+                  className={`h-8 flex justify-between items-center px-3 bg-footer  text-sm   ${
                     active && "bg-white bg-opacity-10"
                   }`}
                   href="#"
@@ -49,7 +49,7 @@ function Auth() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`h-8 flex items-center px-3  text-sm rounded  ${
+                  className={`h-8 flex items-center px-3  bg-footer  text-sm   ${
                     active && "bg-white bg-opacity-10"
                   }`}
                   href="#"
@@ -61,7 +61,7 @@ function Auth() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`h-8 flex  items-center px-3  text-sm rounded  ${
+                  className={`h-8 flex   items-center px-3 bg-footer  text-sm   ${
                     active && "bg-white bg-opacity-10"
                   }`}
                   href="#"

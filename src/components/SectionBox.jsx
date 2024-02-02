@@ -6,7 +6,7 @@ function SectionBox({ title, more = false, items }) {
     <section>
       <header className="flex items-center justify-between mb-4">
         <NavLink to={more}>
-          <h3 className="text-2xl text-white font-semibold tracking-tight hover:underline">
+          <h3 className="text-xl text-white font-semibold tracking-tight hover:underline">
             {title}
           </h3>
         </NavLink>
