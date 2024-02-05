@@ -8,7 +8,7 @@ function Playlists() {
               href="#"
               className="text-s text-link hover:text-white flex h-8 items-center"
             >
-              Coming soon...
+              Song Name...
             </a>
           </li>
         )}

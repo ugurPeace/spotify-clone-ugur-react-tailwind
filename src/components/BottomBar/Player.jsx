@@ -16,7 +16,9 @@ function Player() {
 
   return (
     <div className="flex justify-between items-center h-full">
-      <div className="min-w-[11.25rem] w-[30%]">Lesft Side</div>
+      <div className="min-w-[11.25rem] w-[30%]">
+        React & Tailwind Practice by Ugur
+      </div>
       <div className="max-w-[45.125rem] w-[40%]  flex flex-col items-center">
         <div className="flex items-center gap-x-2">
           <button className="w-8 h-8 flex items-center justify-center text-white text-opacity-70 hover:text-opacity-100">
@@ -94,7 +96,7 @@ function Player() {
         </div>
       </div>
       <div className="min-w-[11.25rem] w-[30%] flex justify-end">
-        Right Side
+        React & Tailwind Practice by Ugur
       </div>
     </div>
   );
