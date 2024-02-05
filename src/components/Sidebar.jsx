@@ -4,12 +4,13 @@ import Playlists from "./Sidebar/Playlists";
 import DownloadApp from "./Sidebar/DownloadApp";
 import { FaPlus } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
+import { FaMusic } from "react-icons/fa6";
 
 function Sidebar() {
   return (
     <aside className="w-60 pt-6 flex flex-col flex-shrink-0 bg-black">
-      <a href="#" className="mb-7 px-6">
-        <img src={logo} />
+      <a href="#" className="mb-7 px-10">
+        <FaMusic size={24} />
       </a>
       <Menu />
       <nav className="mt-6 px-2">

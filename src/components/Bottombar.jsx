@@ -1,7 +1,9 @@
+import Player from "./BottomBar/Player";
+
 function Bottombar() {
   return (
     <div className="h-24 bg-footer border-t border-white border-opacity-5">
-      Bottom bar
+      <Player />
     </div>
   );
 }
